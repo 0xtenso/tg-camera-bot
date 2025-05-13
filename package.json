@@ -1,0 +1,36 @@
+{
+  "name": "telegram-camera-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that processes photos and videos with custom settings",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "demo": "node src/demo.js",
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "sharp": "^0.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "camera",
+    "photo",
+    "video"
+  ],
+  "author": "",
+  "license": "MIT"
+} 
