@@ -1,4 +1,4 @@
-# Telegram Camera Bot
+# TG Camera Bot
 
 A Telegram bot that processes photos and videos with custom settings, based on a React camera application.
 
